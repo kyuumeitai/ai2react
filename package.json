@@ -11,6 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rm -rf ./dist/",
     "build": "rollup -c",
+    "prepack": "[ ! -f .buildme ] || yarn build",
+    "preinstall": "[ ! -f .buildme ] || yarn build",
     "lint": "eslint \"src/**/*.js\""
   },
   "main": "index.js",
