@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
-    "install": "echo 'derppppppppppppppppppppppp' && yarn && yarn build",
+    "install": "( [ ! -f ./ThisIsNpmPackage ] && [ ! -f ./AlreadyInstalled ] && echo \"\" > ./AlreadyInstalled && npm install . && node run build ) || echo \"SKIP: NON GIT SOURCE\"",
     "lint": "eslint \"src/**/*.js\""
   },
   "main": "index.js",
