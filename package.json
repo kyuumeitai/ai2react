@@ -6,8 +6,9 @@
   "repository": "https://github.com/kyuumeitai/ai2react",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "yarn install",
     "build": "rollup -c",
-    "prepare": "echo 'ya pos' && yarn install",
+    "prepare": "yarn install",
     "install": "yarn build",
     "lint": "eslint \"src/**/*.js\""
   },
