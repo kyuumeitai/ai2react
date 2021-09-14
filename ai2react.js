@@ -182,6 +182,24 @@ function main() {
         weight: "bold",
         style: "italic",
       },
+      {
+        aifont: "Inter-Regular",
+        family: "Inter",
+        weight: "400",
+        style: "",
+      },
+      {
+        aifont: "Inter-Bold",
+        family: "Inter",
+        weight: "700",
+        style: "",
+      },
+      {
+        aifont: "Inter-ExtraBold",
+        family: "Inter",
+        weight: "800",
+        style: "",
+      },
     ],
 
     // Width ranges for responsive breakpoints (obsolete, will be removed)

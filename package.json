@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Code for the ai2react library",
   "license": "ISC",
-  "repository": "https://github.com/andrewmilligan/ai2react",
+  "repository": "https://github.com/kyuumeitai/ai2react",
   "scripts": {
     "release": "echo 'Successfully released package!'",
     "prerelease": "yarn version",
